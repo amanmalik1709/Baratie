@@ -1,0 +1,260 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    
+}
+body{
+    background-color: #fffdd0 ;
+}
+.ilogo{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+}
+.lnavbar{
+    display: flex;
+    
+}
+.navbar{
+    padding: 0px;
+    background-color: black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:rebeccapurple;
+    height: 40px;
+}
+
+.name{
+    font-size: 30px;
+}
+ul{
+    padding-inline-start: 0px;
+}
+li{
+    display: inline-block;
+    font-size: 30px;
+    
+    margin: 0px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+li a:hover{
+    color: white;
+    height: 40px;
+    
+}
+a:hover{
+    color: white;
+}
+li a{
+    height: 40px;
+}
+.loc{
+    padding-right: 10px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../one-piece-font.ttf);
+}
+  
+div {
+    font-family: myFirstFont;
+    font-weight: bold;
+    
+}
+
+
+.main_heading{
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 100px;
+}
+
+.left,.right{
+    width: 20%;
+}
+.starters{
+    width: 60%;
+    background-color: palegreen;
+    border-radius: 10px;
+    border: 10px solid black;
+}
+.starter_box, .main_course_box, .pasta_box, .side_box, .desserts_box, .beverages_box, .special_box{
+    display: flex;
+    margin-bottom: 100px;
+}
+.starters_heading, .main_course_heading, .pasta_heading, .side_heading, .desserts_heading, .beverages_heading, .special_heading{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.starters_content_1, .main_course_content_1, .pasta_content_1, .side_content_1, .desserts_content_1, .beverages_content_1, .special_content_1{
+    display: flex;
+    margin-bottom: 30px;
+}
+.starters_content_1_name, .main_course_content_1_name, .pasta_content_1_name, .side_content_1_name, .desserts_content_1_name, .beverages_content_1_name, .special_content_1_name{
+    width: 80%;
+    margin-left: 30px;
+}
+.starters_content_1_name_heading{
+    font-size: 30px;
+    color: teal;
+}
+.starters_content_1_name_text{
+    width: 50%;
+    color: brown    ;
+}
+.starters_content_1_price, .main_course_content_1_price, .pasta_content_1_price, .side_content_1_price, .desserts_content_1_price, .beverages_content_1_price, .special_content_1_price{
+    text-align: right;
+    width: 20%;
+    margin-right: 30px;
+    
+}
+.starters_content_1_price_val{
+    font-size: 30px;
+    color: teal;
+}
+
+.main_course{
+    width: 60%;
+    border-radius: 10px;
+    border: 10px solid black;
+    background-color: plum;
+}
+
+.main_course_content_1_name_heading{
+    font-size: 30px;
+    color: grey;
+}
+
+.main_course_content_1_name_text{
+    width: 50%;
+    color: white;
+}
+
+.main_course_content_1_price_val{
+    font-size: 30px;
+    color: grey;    
+}
+
+
+.pasta{
+    width: 60%;
+    border-radius: 10px;
+    border: 10px solid black;
+    background-color: lightyellow;
+}
+
+.pasta_content_1_name_heading{
+    font-size: 30px;    
+    color: darkblue;
+}
+
+.pasta_content_1_name_text{
+    width: 50%;
+    color: aqua;
+}
+
+.pasta_content_1_price_val{
+    font-size: 30px;
+    color: darkblue;
+}
+
+
+
+.side{
+    width: 60%;
+    border-radius: 10px;
+    border: 10px solid black;
+    background-color: #2e4053;
+}
+
+.side_content_1_name_heading{
+    font-size: 30px;    
+    color: #ffffff;
+}
+
+.side_content_1_name_text{
+    width: 50%;
+    color: #4b4b4b;
+}
+
+.side_content_1_price_val{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+
+.desserts{
+    width: 60%;
+    border-radius: 10px;
+    border: 10px solid black;
+    background-color: #8b4513;
+}
+
+.desserts_content_1_name_heading{
+    font-size: 30px;    
+    color: #fff5e1;
+}
+
+.desserts_content_1_name_text{
+    width: 50%;
+    color: #3e3e3e;
+}
+
+.desserts_content_1_price_val{
+    font-size: 30px;
+    color: #fff5e1;
+}
+
+
+
+.beverages{
+    width: 60%;
+    border-radius: 10px;
+    border: 10px solid black;
+    background-color: #556b2f;
+}
+
+.beverages_content_1_name_heading{
+    font-size: 30px;    
+    color: #ffffff;
+}
+
+.beverages_content_1_name_text{
+    width: 50%;
+    color: #444444;
+}
+
+.beverages_content_1_price_val{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+
+.special{
+    width: 60%;
+    border-radius: 10px;
+    border: 10px solid black;
+    background-color: #b22222 ;
+}
+
+.special_content_1_name_heading{
+    font-size: 30px;    
+    color: #ffffff;
+}
+
+.special_content_1_name_text{
+    width: 50%;
+    color: #333333;
+}
+
+.special_content_1_price_val{
+    font-size: 30px;
+    color: #ffffff;
+}

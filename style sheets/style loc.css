@@ -1,0 +1,92 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    
+}
+body{
+    background-color: lightskyblue ;
+}
+.ilogo{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+}
+.lnavbar{
+    display: flex;
+    
+}
+.navbar{
+    padding: 0px;
+    background-color: black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:rebeccapurple;
+    height: 40px;
+}
+
+.name{
+    font-size: 30px;
+}
+ul{
+    padding-inline-start: 0px;
+}
+li{
+    display: inline-block;
+    font-size: 30px;
+    
+    margin: 0px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+li a:hover{
+    color: white;
+    height: 40px;
+    
+}
+a:hover{
+    color: white;
+}
+li a{
+    height: 40px;
+}
+.loc{
+    padding-right: 10px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../one-piece-font.ttf);
+}
+  
+div {
+    font-family: myFirstFont;
+    font-weight: bold;
+    
+}
+.main_heading{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.box{
+    display: flex;
+}
+.left, .right{
+    width: 20%;
+}
+.map_text{
+    width: 60%;
+    text-align: center;
+    font-size: 30px;
+    color: grey;
+    
+}
+.img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
